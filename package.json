@@ -1,0 +1,21 @@
+{
+	"name": "gh-switcher",
+	"version": "1.0.0",
+	"main": "index.js",
+	"bin": {
+		"ghswitch": "./index.js"
+	},
+	"type": "module",
+	"scripts": {
+		"test": "echo \"Error: no test specified\" && exit 1"
+	},
+	"keywords": [],
+	"author": "",
+	"license": "ISC",
+	"description": "",
+	"dependencies": {
+		"@inquirer/select": "^5.0.1",
+		"chalk": "^5.6.2",
+		"commander": "^14.0.2"
+	}
+}
